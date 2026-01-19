@@ -18,6 +18,7 @@
 
 services:
   server:
+    image: izdev1/javadockerexample:latest
     build:
       context: .
       target: development
